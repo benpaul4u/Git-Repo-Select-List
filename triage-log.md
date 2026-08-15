@@ -28,3 +28,4 @@ recorded implicitly by their entry in `README.md`.
 | [usememos/memos](https://github.com/usememos/memos) | 2026-08-15 | Rejected | Operational tool/app unrelated to embeddable-editor pattern list. |
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 2026-08-15 | Rejected | Operational tool/app unrelated to embeddable-editor pattern list. |
 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 2026-08-15 | Rejected | Operational tool/app unrelated to embeddable-editor pattern list. |
+| [torvalds/linux](https://github.com/torvalds/linux) | 2026-08-15 | Rejected | OS kernel source tree; not a self-hosted app, Docker, or release-engineering pattern comparable to existing entries. |

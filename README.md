@@ -35,7 +35,8 @@ Last updated: 2026-08-15
 | 1 | [Yjs](https://github.com/yjs/yjs) | MIT | CRDT for shared editing. Battle-tested, big ecosystem (providers, awareness/presence). |
 | 2 | [Hocuspocus](https://github.com/ueberdosis/hocuspocus) | MIT | Yjs WebSocket collab server + client provider. Hooks for auth, persistence, throttling. |
 | 3 | [loro-dev/loro](https://github.com/loro-dev/loro) | MIT | Rust CRDT with rich-text/tree support and JS bindings; strongest emerging alternative to Yjs. |
-| 4 | [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | MIT | Microsoft's distributed data structures for real-time collab; heavier server coupling (needs a Fluid service) than Yjs-style CRDTs. |
+| 4 | [automerge/automerge](https://github.com/automerge/automerge) | MIT | Rust-core CRDT for general JSON documents; built-in network-agnostic sync protocol and full document history (git-like time travel) — different architectural model than Yjs/Loro's shared-type approach. |
+| 5 | [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | MIT | Microsoft's distributed data structures for real-time collab; heavier server coupling (needs a Fluid service) than Yjs-style CRDTs. |
 
 ## 4. File I/O (office formats)
 
