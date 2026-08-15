@@ -1,0 +1,91 @@
+name: Autonomous candidate triage
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-triage
+  cancel-in-progress: false
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check for ANTHROPIC_API_KEY
+        id: check-key
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::notice::ANTHROPIC_API_KEY secret not set — skipping autonomous triage"
+            echo "has_key=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_key=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check for pending candidates
+        id: check-candidates
+        if: steps.check-key.outputs.has_key == 'true'
+        run: |
+          if grep -qE '^\| \[' candidates.md; then
+            echo "has_candidates=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "no candidates"
+            echo "has_candidates=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run Claude triage
+        if: steps.check-key.outputs.has_key == 'true' && steps.check-candidates.outputs.has_candidates == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Read TRIAGE.md, candidates.md, README.md, and triage-log.md in
+            this repo. Apply the promotion/rejection criteria in TRIAGE.md to
+            every pending candidate row in candidates.md:
+
+            - Promote qualifying candidates into the matching category table
+              in README.md, with a proper rank number, license, and a terse
+              assessment note in the existing house style (see current
+              entries for tone — neutral, no adoption/ownership claims,
+              state what the repo adds and any AGPL/GPL patterns-only
+              caution).
+            - Respect the ~5-6 entries per category cap; demote/remove a
+              weaker entry if a promotion would exceed it, and note that in
+              triage-log.md.
+            - Reject everything else and append one row per rejected repo to
+              triage-log.md (Repo | Date | Verdict | Reason), terse and
+              neutral.
+            - Remove every processed candidate (promoted or rejected) from
+              candidates.md — it should only ever contain pending rows plus
+              its explanatory header.
+            - Never remove or alter entries in data/seen.json.
+            - Never re-surface a repo already logged as rejected in
+              triage-log.md.
+            - Update the "Last updated" date in README.md to today's date
+              (UTC) if any change was made.
+            - Do not commit or push — leave the working tree changes in
+              place for a subsequent workflow step to commit.
+          claude_args: "--allowedTools Edit,Write,Read,Glob,Grep"
+
+      - name: Commit and push if changed
+        if: steps.check-key.outputs.has_key == 'true' && steps.check-candidates.outputs.has_candidates == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md candidates.md triage-log.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          RUN_DATE=$(date -u +%Y-%m-%d)
+          git commit -m "chore: autonomous triage ${RUN_DATE}"
+          git push

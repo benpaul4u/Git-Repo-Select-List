@@ -7,58 +7,8 @@ remove it from here. New runs are appended under each category's heading,
 newest first; entries already surfaced (tracked in `data/seen.json`) are
 never repeated.
 
-## Spreadsheet / Document engines
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [ironcalc/IronCalc](https://github.com/ironcalc/IronCalc) | 4,096 | Apache-2.0 | Main engine of the IronCalc ecosystem | 2026-08-14 | 2026-08-15 |
-| [productdevbook/hucre](https://github.com/productdevbook/hucre) | 2,026 | MIT | Zero-dependency spreadsheet engine. Read & write XLSX, CSV, ODS. Pure TypeScript, works everywhere. | 2026-08-13 | 2026-08-15 |
-
-## Real-time collaboration / CRDT
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 71,556 | unknown | There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. | 2026-08-14 | 2026-08-15 |
-| [pubkey/rxdb](https://github.com/pubkey/rxdb) | 23,344 | Apache-2.0 | The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/ | 2026-08-15 | 2026-08-15 |
-| [amark/gun](https://github.com/amark/gun) | 19,111 | unknown | An open source cybersecurity protocol for syncing decentralized graph data. | 2026-08-01 | 2026-08-15 |
-| [electric-sql/electric](https://github.com/electric-sql/electric) | 10,319 | Apache-2.0 | The agent platform built on sync. | 2026-08-14 | 2026-08-15 |
-| [berty/berty](https://github.com/berty/berty) | 9,273 | unknown | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | 2026-08-14 | 2026-08-15 |
-| [supabase/realtime](https://github.com/supabase/realtime) | 7,619 | Apache-2.0 | Broadcast, Presence, and Postgres Changes via WebSockets | 2026-08-14 | 2026-08-15 |
-| [loro-dev/loro](https://github.com/loro-dev/loro) | 6,039 | MIT | Make your JSON data collaborative and version-controlled with CRDTs | 2026-08-11 | 2026-08-15 |
-| [toeverything/blocksuite](https://github.com/toeverything/blocksuite) | 5,976 | MPL-2.0 | 🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications. | 2026-08-14 | 2026-08-15 |
-| [tinyplex/tinybase](https://github.com/tinyplex/tinybase) | 5,144 | MIT | A reactive data store & sync engine. | 2026-08-15 | 2026-08-15 |
-| [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | 4,945 | MIT | Library for building distributed, real-time collaborative web  applications | 2026-08-15 | 2026-08-15 |
-
-## File I/O (office formats)
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [shuchkin/simplexlsx](https://github.com/shuchkin/simplexlsx) | 1,829 | MIT | Parse and retrieve data from Excel XLSx files | 2026-08-11 | 2026-08-15 |
-| [ispras/dedoc](https://github.com/ispras/dedoc) | 719 | Apache-2.0 | Dedoc is a library (service) for automate documents parsing and bringing to a uniform format. It automatically extracts content, logical structure, tables, and meta information from textual electronic documents. (Parse document; Document content extraction; Logical structure extraction; PDF parser; Scanned document parser; DOCX parser; HTML parser | 2026-08-11 | 2026-08-15 |
-| [harshankur/officeParser](https://github.com/harshankur/officeParser) | 525 | MIT | A robust, strictly-typed Node.js and Browser library for parsing office files into a rich Abstract Syntax Tree (AST) and generating high-fidelity output in multiple formats.  Parses: docx · pptx · xlsx · odt · odp · ods · pdf · rtf · csv · md · html. Generates: Markdown · HTML · CSV · RTF · PDF · Plain Text · RAG Chunks | 2026-08-14 | 2026-08-15 |
-| [catamphetamine/read-excel-file](https://github.com/catamphetamine/read-excel-file) | 327 | MIT | Read *.xlsx files in a browser or Node.js. Parse to JSON with a strict schema. | 2026-08-09 | 2026-08-15 |
-
-## Charts / visualization
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) | 6,942 | MIT | React components for Chart.js, the most popular charting library | 2026-08-14 | 2026-08-15 |
-| [vega/vega-lite](https://github.com/vega/vega-lite) | 5,447 | BSD-3-Clause | A concise grammar of interactive graphics, built on Vega. | 2026-08-14 | 2026-08-15 |
-| [antvis/G2Plot](https://github.com/antvis/G2Plot) | 2,653 | MIT | :dango:  An interactive and responsive charting library based on G2. | 2026-07-31 | 2026-08-15 |
-| [antvis/AVA](https://github.com/antvis/AVA) | 1,497 | MIT | 🤖 AI-native Visual Analytics framework build for agents. | 2026-06-09 | 2026-08-15 |
-| [zz85/space-radar](https://github.com/zz85/space-radar) | 1,439 | MIT | Fast Disk And Memory Space Visualization App for Mac, Windows and Ubuntu | 2026-05-28 | 2026-08-15 |
-
-## Self-hosting / Docker / release-engineering patterns
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 312,755 | unknown | A list of Free Software network services and web applications which can be hosted on your own servers | 2026-08-12 | 2026-08-15 |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 200,675 | unknown | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. | 2026-08-15 | 2026-08-15 |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | 148,817 | unknown | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 2026-08-15 | 2026-08-15 |
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 90,189 | MIT | A fancy self-hosted monitoring tool | 2026-08-15 | 2026-08-15 |
-| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 89,524 | unknown | #1 PDF Application on GitHub that lets you edit PDFs on any device anywhere | 2026-08-14 | 2026-08-15 |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 71,622 | Apache-2.0 | Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more. | 2026-08-15 | 2026-08-15 |
-| [usememos/memos](https://github.com/usememos/memos) | 62,251 | MIT | Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours. | 2026-08-13 | 2026-08-15 |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | 60,602 | Apache-2.0 | An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers. | 2026-08-15 | 2026-08-15 |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | 57,375 | MIT | Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD | 2026-08-15 | 2026-08-15 |
-| [appwrite/appwrite](https://github.com/appwrite/appwrite) | 56,988 | BSD-3-Clause | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more | 2026-08-15 | 2026-08-15 |
+Triage decisions are recorded in `triage-log.md` (one row per rejected
+repo — promoted repos are recorded implicitly by their `README.md` entry).
+Triage criteria — what gets promoted vs. rejected, and how — are defined in
+`TRIAGE.md`; the `triage.yml` workflow applies them automatically on a
+schedule.

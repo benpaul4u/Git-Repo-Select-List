@@ -16,6 +16,8 @@ Last updated: 2026-08-15
 | # | Repo | License | Notes |
 |---|------|---------|-------|
 | 1 | [Univer](https://github.com/dream-num/univer) | Apache-2.0 | Web spreadsheet/doc engine — grid, formula engine, plugin architecture. Pin all `@univerjs/*` packages to one exact version — plugin contracts break across minors. Pro features (collab, xlsx I/O, charts, pivots) are paid; build those on OSS instead. |
+| 2 | [ironcalc/IronCalc](https://github.com/ironcalc/IronCalc) | Apache-2.0 | Spreadsheet engine in Rust with WASM bindings; permissively-licensed alternative for embedding a calc engine outside JS. |
+| 3 | [productdevbook/hucre](https://github.com/productdevbook/hucre) | MIT | Zero-dependency pure-TypeScript spreadsheet engine with XLSX/CSV/ODS read-write. Young project — verify maturity before depending on it. |
 
 ## 2. Embeddable editor SDK model (architecture references)
 
@@ -24,6 +26,7 @@ Last updated: 2026-08-15
 | 1 | [Excalidraw](https://github.com/excalidraw/excalidraw) | MIT | The gold-standard "package IS the editor" model: npm package ships the full editor, collab server is opt-in, local-first localStorage host, E2E-encrypted share links. |
 | 2 | [Penpot](https://github.com/penpot/penpot) | MPL-2.0 | Team-scale real-time collaborative design editor; deployment-agnostic self-hosting; open-standards file formats. Clojure/ClojureScript stack limits code reuse — study the model, not the code. |
 | 3 | [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | AGPL-3.0 | Local-first collaborative workspace (Notion-style). Its Rust `collab` crates build on yrs (Yjs-compatible CRDT) — relevant when a native/Rust sync peer is needed. Desktop-native (Flutter), not web-embeddable. |
+| 4 | [toeverything/blocksuite](https://github.com/toeverything/blocksuite) | MPL-2.0 | Block-based collaborative editor toolkit (powers AFFiNE); CRDT-native document model, good reference for editor-as-package architecture. |
 
 ## 3. Real-time collaboration / CRDT
 
@@ -31,6 +34,8 @@ Last updated: 2026-08-15
 |---|------|---------|-------|
 | 1 | [Yjs](https://github.com/yjs/yjs) | MIT | CRDT for shared editing. Battle-tested, big ecosystem (providers, awareness/presence). |
 | 2 | [Hocuspocus](https://github.com/ueberdosis/hocuspocus) | MIT | Yjs WebSocket collab server + client provider. Hooks for auth, persistence, throttling. |
+| 3 | [loro-dev/loro](https://github.com/loro-dev/loro) | MIT | Rust CRDT with rich-text/tree support and JS bindings; strongest emerging alternative to Yjs. |
+| 4 | [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | MIT | Microsoft's distributed data structures for real-time collab; heavier server coupling (needs a Fluid service) than Yjs-style CRDTs. |
 
 ## 4. File I/O (office formats)
 
@@ -46,6 +51,8 @@ Last updated: 2026-08-15
 | # | Repo | License | Notes |
 |---|------|---------|-------|
 | 1 | [Apache ECharts](https://github.com/apache/echarts) | Apache-2.0 | Chart rendering (canvas/SVG). Broad chart-type coverage, no license issues. |
+| 2 | [vega/vega-lite](https://github.com/vega/vega-lite) | BSD-3-Clause | Declarative grammar of interactive graphics; best for spec-driven chart generation. |
+| 3 | [reactchartjs/react-chartjs-2](https://github.com/reactchartjs/react-chartjs-2) | MIT | React bindings for Chart.js; lightweight option when full ECharts is overkill. |
 
 ## 6. Sharing / permissions / document-workflow patterns
 
@@ -61,6 +68,8 @@ Last updated: 2026-08-15
 | 2 | [Dub](https://github.com/dubinc/dub) | AGPL-3.0 + closed `/ee` | Clean Turborepo layout; notable dual-license OSS + Enterprise-Edition split as a monetization pattern. |
 | 3 | [ListMonk](https://github.com/knadh/listmonk) | AGPL-3.0 | Single-binary Go self-hosted app — packaging comparable for Go services. |
 | 4 | [Cal.DIY](https://github.com/calcom/cal.diy) | MIT | Community scheduling fork of Cal.com; plain Turborepo/self-hosting example, nothing distinctive. |
+| 5 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | Apache-2.0 | Self-hostable PaaS (Vercel/Heroku alternative); useful deployment target/pattern for shipping self-hosted apps. |
+| — | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | unknown (GitHub reports no detected license) | Meta-directory: discovery list of self-hosted software, not software itself. Use for scouting, not a dependency. |
 
 ## 8. Assessed — low relevance for web editor work
 
