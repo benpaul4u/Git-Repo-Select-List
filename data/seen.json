@@ -29,5 +29,7 @@
   "unslothai/unsloth",
   "usememos/memos",
   "vega/vega-lite",
-  "zz85/space-radar"
+  "zz85/space-radar",
+  "automerge/automerge",
+  "torvalds/linux"
 ]

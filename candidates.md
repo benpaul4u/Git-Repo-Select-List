@@ -12,3 +12,15 @@ repo — promoted repos are recorded implicitly by their `README.md` entry).
 Triage criteria — what gets promoted vs. rejected, and how — are defined in
 `TRIAGE.md`; the `triage.yml` workflow applies them automatically on a
 schedule.
+
+## Real-time collaboration / CRDT
+
+| Repo | Stars | License | Description | Last push | Run date |
+|------|-------|---------|-------------|-----------|----------|
+| [automerge/automerge](https://github.com/automerge/automerge) | 4,300 | MIT | A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically. | 2026-08-10 | 2026-08-15 |
+
+## Self-hosting / Docker / release-engineering patterns
+
+| Repo | Stars | License | Description | Last push | Run date |
+|------|-------|---------|-------------|-----------|----------|
+| [torvalds/linux](https://github.com/torvalds/linux) | 200,000 | GPL-2.0 | Linux kernel source tree | 2026-08-15 | 2026-08-15 |
