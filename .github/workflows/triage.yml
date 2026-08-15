@@ -19,16 +19,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check for ANTHROPIC_API_KEY
+      - name: Check for Claude credentials
         id: check-key
         env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::notice::ANTHROPIC_API_KEY secret not set — skipping autonomous triage"
-            echo "has_key=false" >> "$GITHUB_OUTPUT"
-          else
+          if [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
             echo "has_key=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::Neither CLAUDE_CODE_OAUTH_TOKEN nor ANTHROPIC_API_KEY secret is set — skipping autonomous triage"
+            echo "has_key=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Check for pending candidates
@@ -46,6 +47,7 @@ jobs:
         if: steps.check-key.outputs.has_key == 'true' && steps.check-candidates.outputs.has_candidates == 'true'
         uses: anthropics/claude-code-action@v1
         with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Read TRIAGE.md, candidates.md, README.md, and triage-log.md in
