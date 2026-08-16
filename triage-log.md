@@ -29,3 +29,7 @@ recorded implicitly by their entry in `README.md`.
 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 2026-08-15 | Rejected | Operational tool/app unrelated to embeddable-editor pattern list. |
 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 2026-08-15 | Rejected | Operational tool/app unrelated to embeddable-editor pattern list. |
 | [torvalds/linux](https://github.com/torvalds/linux) | 2026-08-15 | Rejected | OS kernel source tree; not a self-hosted app, Docker, or release-engineering pattern comparable to existing entries. |
+| [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) | 2026-08-16 | Rejected | License recorded as unknown, not a clear OSI-approved license; also requires a proprietary hosted backend, unlike existing self-contained CRDT libraries. |
+| [garden-co/classic-jazz](https://github.com/garden-co/classic-jazz) | 2026-08-16 | Rejected | Local-first data-sync store, not a document-collab CRDT; revisit if a sync-store is needed. |
+| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 2026-08-16 | Rejected | Analytics database engine; not a self-hosted web app or release-engineering pattern comparable to existing entries. |
+| [gogs/gogs](https://github.com/gogs/gogs) | 2026-08-16 | Rejected | Single-binary Go self-hosted service; the packaging pattern is already covered by ListMonk, redundant. |

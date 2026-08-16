@@ -7,7 +7,7 @@ A curated, categorized list of open-source GitHub repositories, assessed for bui
 - Every entry: name, URL, license, one-line description, assessment note.
 - Rankings are per-category, best first. Re-rank when a better option is found.
 
-Last updated: 2026-08-15
+Last updated: 2026-08-16
 
 ---
 
@@ -37,6 +37,7 @@ Last updated: 2026-08-15
 | 3 | [loro-dev/loro](https://github.com/loro-dev/loro) | MIT | Rust CRDT with rich-text/tree support and JS bindings; strongest emerging alternative to Yjs. |
 | 4 | [automerge/automerge](https://github.com/automerge/automerge) | MIT | Rust-core CRDT for general JSON documents; built-in network-agnostic sync protocol and full document history (git-like time travel) — different architectural model than Yjs/Loro's shared-type approach. |
 | 5 | [microsoft/FluidFramework](https://github.com/microsoft/FluidFramework) | MIT | Microsoft's distributed data structures for real-time collab; heavier server coupling (needs a Fluid service) than Yjs-style CRDTs. |
+| 6 | [vlcn-io/cr-sqlite](https://github.com/vlcn-io/cr-sqlite) | MIT | CRDTs built directly into SQLite as a loadable extension — multi-writer sync for relational/structured data, a different layer than the text/rich-document CRDT model of Yjs/Loro/Automerge. |
 
 ## 4. File I/O (office formats)
 

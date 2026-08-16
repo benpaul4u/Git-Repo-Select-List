@@ -6,18 +6,3 @@ promote it into `README.md` with a proper ranking and assessment note, then
 remove it from here. New runs are appended under each category's heading,
 newest first; entries already surfaced (tracked in `data/seen.json`) are
 never repeated.
-
-## Real-time collaboration / CRDT
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [liveblocks/liveblocks](https://github.com/liveblocks/liveblocks) | 4,690 | unknown | Realtime infrastructure for multiplayer apps and agents | 2026-08-14 | 2026-08-16 |
-| [vlcn-io/cr-sqlite](https://github.com/vlcn-io/cr-sqlite) | 3,762 | MIT | Convergent, Replicated SQLite. Multi-writer and CRDT support for SQLite | 2026-08-10 | 2026-08-16 |
-| [garden-co/classic-jazz](https://github.com/garden-co/classic-jazz) | 2,534 | MIT | A new kind of database that's distributed across your frontend, containers, serverless functions and its own storage cloud. | 2026-07-23 | 2026-08-16 |
-
-## Self-hosting / Docker / release-engineering patterns
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 49,267 | Apache-2.0 | ClickHouse® is a real-time analytics database management system | 2026-08-16 | 2026-08-16 |
-| [gogs/gogs](https://github.com/gogs/gogs) | 47,737 | MIT | The painless way to host your own Git service | 2026-08-06 | 2026-08-16 |
