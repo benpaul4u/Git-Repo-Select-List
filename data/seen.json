@@ -36,5 +36,6 @@
   "usememos/memos",
   "vega/vega-lite",
   "vlcn-io/cr-sqlite",
+  "y-crdt/y-crdt",
   "zz85/space-radar"
 ]
