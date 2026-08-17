@@ -33,3 +33,4 @@ recorded implicitly by their entry in `README.md`.
 | [garden-co/classic-jazz](https://github.com/garden-co/classic-jazz) | 2026-08-16 | Rejected | Local-first data-sync store, not a document-collab CRDT; revisit if a sync-store is needed. |
 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 2026-08-16 | Rejected | Analytics database engine; not a self-hosted web app or release-engineering pattern comparable to existing entries. |
 | [gogs/gogs](https://github.com/gogs/gogs) | 2026-08-16 | Rejected | Single-binary Go self-hosted service; the packaging pattern is already covered by ListMonk, redundant. |
+| [y-crdt/y-crdt](https://github.com/y-crdt/y-crdt) | 2026-08-17 | Rejected | License reported as unknown, not a clear OSI-approved license; Rust CRDT ground already covered by Loro, Yjs-compatibility by Yjs itself. |

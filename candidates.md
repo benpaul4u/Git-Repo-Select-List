@@ -6,9 +6,3 @@ promote it into `README.md` with a proper ranking and assessment note, then
 remove it from here. New runs are appended under each category's heading,
 newest first; entries already surfaced (tracked in `data/seen.json`) are
 never repeated.
-
-## Real-time collaboration / CRDT
-
-| Repo | Stars | License | Description | Last push | Run date |
-|------|-------|---------|-------------|-----------|----------|
-| [y-crdt/y-crdt](https://github.com/y-crdt/y-crdt) | 2,143 | unknown | Rust port of Yjs | 2026-08-08 | 2026-08-17 |
