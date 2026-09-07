@@ -14,6 +14,7 @@
   "go-gitea/gitea",
   "gogs/gogs",
   "harshankur/officeparser",
+  "hkuds/nanobot",
   "ironcalc/ironcalc",
   "ispras/dedoc",
   "liveblocks/liveblocks",

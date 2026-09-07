@@ -6,3 +6,9 @@ promote it into `README.md` with a proper ranking and assessment note, then
 remove it from here. New runs are appended under each category's heading,
 newest first; entries already surfaced (tracked in `data/seen.json`) are
 never repeated.
+
+## Self-hosting / Docker / release-engineering patterns
+
+| Repo | Stars | License | Description | Last push | Run date |
+|------|-------|---------|-------------|-----------|----------|
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 47,839 | MIT | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps | 2026-09-07 | 2026-09-07 |
