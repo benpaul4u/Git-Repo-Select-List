@@ -11,3 +11,9 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
+
+## Charts / visualization
+
+| Repo | Stars | License | Description | Last push | Run date |
+|------|-------|---------|-------------|-----------|----------|
+| [geekplux/markvis](https://github.com/geekplux/markvis) | 1,584 | MIT | Charts in Markdown. The fence is the data. | 2026-09-14 | 2026-09-15 |
