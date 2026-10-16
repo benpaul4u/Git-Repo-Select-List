@@ -24,6 +24,7 @@
   "microsoft/fluidframework",
   "n8n-io/n8n",
   "open-webui/open-webui",
+  "pathwaycom/serviette",
   "productdevbook/hucre",
   "pubkey/rxdb",
   "reactchartjs/react-chartjs-2",
