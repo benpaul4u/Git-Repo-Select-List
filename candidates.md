@@ -11,7 +11,6 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
-| [pathwaycom/serviette](https://github.com/pathwaycom/serviette) | 58,795 | MIT | Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more. | 2026-10-16 | 2026-10-16 |
 
 ## Charts / visualization
 
