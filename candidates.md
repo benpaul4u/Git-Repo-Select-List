@@ -21,4 +21,3 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
-| [The-Vibe-Company/megaparse](https://github.com/The-Vibe-Company/megaparse) | 7,415 | Apache-2.0 | File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs. | 2026-10-15 | 2026-10-18 |
