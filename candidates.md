@@ -11,7 +11,6 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | 50,870 | AGPL-3.0 | Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting. | 2026-10-28 | 2026-10-28 |
 
 ## Charts / visualization
 

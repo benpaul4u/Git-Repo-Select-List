@@ -7,7 +7,7 @@ A curated, categorized list of open-source GitHub repositories, assessed for bui
 - Every entry: name, URL, license, one-line description, assessment note.
 - Rankings are per-category, best first. Re-rank when a better option is found.
 
-Last updated: 2026-10-22
+Last updated: 2026-10-29
 
 ---
 
