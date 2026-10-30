@@ -16,6 +16,7 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
+| [britecharts/britecharts](https://github.com/britecharts/britecharts) | 3,719 | Apache-2.0 | Finished, accessible charts that any page, and any agent, can add with one script tag or one validated JSON config. | 2026-10-30 | 2026-10-30 |
 
 ## File I/O (office formats)
 
