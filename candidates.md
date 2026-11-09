@@ -21,3 +21,4 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
+| [mgcrea/node-xlsx](https://github.com/mgcrea/node-xlsx) | 3,031 | unknown | NodeJS excel file parser & builder | 2026-11-09 | 2026-11-09 |

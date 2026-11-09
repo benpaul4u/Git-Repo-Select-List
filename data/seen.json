@@ -22,6 +22,7 @@
   "liveblocks/liveblocks",
   "loro-dev/loro",
   "louislam/uptime-kuma",
+  "mgcrea/node-xlsx",
   "microsoft/fluidframework",
   "n8n-io/n8n",
   "open-webui/open-webui",
