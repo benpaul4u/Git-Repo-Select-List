@@ -25,6 +25,7 @@
   "mgcrea/node-xlsx",
   "microsoft/fluidframework",
   "n8n-io/n8n",
+  "neondatabase/electric",
   "open-webui/open-webui",
   "pathwaycom/serviette",
   "productdevbook/hucre",

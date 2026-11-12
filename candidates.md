@@ -22,3 +22,9 @@ never repeated.
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
 | [mgcrea/node-xlsx](https://github.com/mgcrea/node-xlsx) | 3,031 | unknown | NodeJS excel file parser & builder | 2026-11-09 | 2026-11-09 |
+
+## Real-time collaboration / CRDT
+
+| Repo | Stars | License | Description | Last push | Run date |
+|------|-------|---------|-------------|-----------|----------|
+| [neondatabase/electric](https://github.com/neondatabase/electric) | 10,429 | Apache-2.0 | The agent platform built on sync. | 2026-10-06 | 2026-11-12 |
