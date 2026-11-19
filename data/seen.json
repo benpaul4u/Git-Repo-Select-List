@@ -26,6 +26,7 @@
   "microsoft/fluidframework",
   "n8n-io/n8n",
   "neondatabase/electric",
+  "netdata/netdata",
   "open-webui/open-webui",
   "pathwaycom/serviette",
   "productdevbook/hucre",

@@ -11,6 +11,7 @@ never repeated.
 
 | Repo | Stars | License | Description | Last push | Run date |
 |------|-------|---------|-------------|-----------|----------|
+| [netdata/netdata](https://github.com/netdata/netdata) | 81,490 | GPL-3.0 | Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations | 2026-11-19 | 2026-11-19 |
 
 ## Charts / visualization
 
